@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="result">Result:</div>
+        <form>
+        <label for="first Name">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+        <label for="last name">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Last Name" required><br><br>
+
+      <label for="Gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label> <br><br>
+      </form>
+      <button class="btn">Add user</button>
+
+  <h1>Requirements:</h1>
+  <p>First name, last name can not be empty.</p>
+  <p> name, last name must contain only letters </p>
+  <p> name, last name length greater than 3.</p>
+  
+    <script src="app.js"></script>
+</body>
+</html>
